@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 1px 10px grey;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.githubLink{
+    width: 50px;
+}
+
+.myImage{
+    width: 50px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #0ff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+  font-size: 1rem;
+}
+
+.changeBy {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 16px 8px;
+}
